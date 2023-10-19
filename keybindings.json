@@ -380,4 +380,9 @@
     "command": "workbench.action.focusActiveEditorGroup",
     "when": "listFocus"
   },
+  {
+    "key": "ctrl+space",
+    "command": "toggleSuggestionDetails",
+    "when": "suggestWidgetVisible && textInputFocus"
+  },
 ]
